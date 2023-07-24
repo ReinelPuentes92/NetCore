@@ -1,0 +1,11 @@
+@model Alumno
+
+@{
+    ViewData["Title"] = "Alumno";
+    Layout = "_Simple";
+}
+
+<h2>Codigo: @Model.Id</h2> <br/>
+<h2>Nombre: @Model.Nombre</h2>
+
+<p><i>@ViewBag.Fecha</i></p>
