@@ -31,6 +31,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hdHVyYVxMaXN0QXNpZ25hdHVyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Personal/Cursos/C\#/.NetCore/Views/Curso/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Personal/Cursos/C\#/.NetCore/Views/Curso/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Personal/Cursos/C\#/.NetCore/Views/Curso/ListCursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cTGlzdEN1cnNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Personal/Cursos/C\#/.NetCore/Views/Escuela/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjdWVsYVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

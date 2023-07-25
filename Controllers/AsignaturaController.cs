@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 using _NetCore.Models;
 
 public class AsignaturaController : Controller
@@ -11,19 +12,21 @@ public class AsignaturaController : Controller
         _context = context;
     }
 
-    public IActionResult Index()
+    [Route("Asignatura/Index/{asignaturaId?}")]
+    public IActionResult Index(string asignaturaId)
     {
 
-        /*var asignatura = new Asignatura{
-            Id = Guid.NewGuid().ToString(),
-            Nombre = "Matematicas",
-        };*/
-        
-        var asignatura = _context.Asignaturas.FirstOrDefault();
-        @ViewBag.mensajeDinamico = "Materia para primaria y secundaria";
-        @ViewBag.Fecha = DateTime.Now;
+        if (!string.IsNullOrEmpty(asignaturaId))
+        {
+            var asignaruta = from asing in _context.Asignaturas
+                         where asing.Id == asignaturaId
+                         select asing;
 
-        return View(asignatura);
+            return View(asignaruta.SingleOrDefault());
+        } else {
+            return View("ListAsignatura", _context.Asignaturas);
+        }
+
     }
 
     public IActionResult ListAsignatura()

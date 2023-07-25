@@ -14,16 +14,25 @@ public class AlumnoController : Controller
         _context = context;
     }
 
-    public IActionResult Index()
+    [Route("Alumno/Index/{alumnoId?}")]
+    public IActionResult Index(string alumnoId)
     {
-        /*var alumno = new Alumno {
-            Id = Guid.NewGuid().ToString(),
-            Nombre = "Pepito Perez"
-        };*/
-        var alumno = _context.Alumnos.FirstOrDefault();
         @ViewBag.Fecha = DateTime.Now;
 
-        return View(alumno);
+        if (!string.IsNullOrEmpty(alumnoId))
+        {
+            var alumnoSel = from alumn in _context.Alumnos
+                         where alumn.Id == alumnoId
+                         select alumn;
+
+            return View(alumnoSel.SingleOrDefault());
+
+        } else {
+
+            return View("ListAlumno", _context.Alumnos);
+
+        }
+        
     }
 
     public IActionResult ListAlumno()
