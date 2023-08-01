@@ -8,81 +8,85 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _NetCore
 build_property.RootNamespace = _NetCore
-build_property.ProjectDir = E:\Personal\Cursos\C#\.NetCore\
+build_property.ProjectDir = D:\Cursos\2023\.Net\NetCore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Personal\Cursos\C#\.NetCore
+build_property.MSBuildProjectDirectory = D:\Cursos\2023\.Net\NetCore
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Alumno/Index.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Alumno/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Alumno/ListAlumno.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Alumno/ListAlumno.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXExpc3RBbHVtbm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Asignatura/Index.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Asignatura/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hdHVyYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Asignatura/ListAsignatura.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Asignatura/ListAsignatura.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hdHVyYVxMaXN0QXNpZ25hdHVyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Curso/Create.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Curso/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Curso/Index.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Curso/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cursos/2023/.Net/NetCore/Views/Curso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Curso/ListCursos.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Curso/ListCursos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cTGlzdEN1cnNvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Escuela/index.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Escuela/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjdWVsYVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Home/Index.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Home/Privacy.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Shared/Error.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Shared/_EscuelaBaseSimple.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Shared/_EscuelaBaseSimple.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Fc2N1ZWxhQmFzZVNpbXBsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Shared/_ListEscuelaBaseSimple.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Shared/_ListEscuelaBaseSimple.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaXN0RXNjdWVsYUJhc2VTaW1wbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Shared/_Simple.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Shared/_Simple.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaW1wbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/_ViewImports.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/_ViewStart.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Personal/Cursos/C\#/.NetCore/Views/Shared/_Layout.cshtml]
+[D:/Cursos/2023/.Net/NetCore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5tf7o2sgrb

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace _NetCore.Models
 {
@@ -40,8 +41,13 @@ namespace _NetCore.Models
 
             modelBuilder.Entity<Escuela>().HasData(escuela);
             modelBuilder.Entity<Curso>().HasData(cursos.ToArray());
-            modelBuilder.Entity<Asignatura>().HasData(asignaturas.ToArray());
-            modelBuilder.Entity<Alumno>().HasData(alumnos.ToArray());       
+            modelBuilder.Entity<Asignatura>()
+                .HasMany(a => a.Evaluaciones)
+                .WithOne(a => a.Asignatura)
+                .HasForeignKey(a => a.AsignaturaId)                
+                .OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Alumno>().HasData(alumnos.ToArray());    
+
         }
 
         //Para crear alumnos

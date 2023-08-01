@@ -2,6 +2,7 @@
 
 using _NetCore.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,9 +10,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 #region DbContext
-builder.Services.AddDbContext<EscuelaContext>(
+
+//Connection String
+string connString = builder.Configuration
+                            .GetConnectionString("DefaultConnection");
+
+/*builder.Services.AddDbContext<EscuelaContext>(
     options => options.UseInMemoryDatabase(databaseName: "testDB")
-);
+);*/
+
+builder.Services.AddDbContext<EscuelaContext>(options => {
+    options.UseSqlServer(connString);
+});
 #endregion
 
 var app = builder.Build();

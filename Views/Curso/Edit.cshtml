@@ -1,0 +1,28 @@
+@model Curso
+
+@{
+    ViewData["Title"] = "Edicion de cursos";
+    Layout = "_Simple";
+}
+
+<h4>Edicion Cursos</h4>
+<hr />
+
+<form asp-action="Edit">
+    <div class="row">
+        <div class="col">
+            <label asp-for="Nombre"></label>
+            <input asp-for="Nombre" class="form-control"/>
+        </div>
+
+        <div class="col">
+            <label asp-for="Jornada" control="control-label"></label>
+            <select asp-for="Jornada" class="form-control"
+                asp-items="Html.GetEnumSelectList<TiposJornada>()"></select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="save" />
+    </div>       
+</form>

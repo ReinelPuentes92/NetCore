@@ -5,6 +5,13 @@
     Layout = "_Simple";
 }
 
+@if (@ViewBag.Notificacion != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.Notificacion
+    </div>
+}
+
 <form method="post">
     <div class="row">
         <div class="col">
@@ -13,7 +20,11 @@
         </div>
         <div class="col">
             <label asp-for="Jornada"></label>
-            <input asp-for="Jornada" class="form-control" />
+            @Html.DropDownList(
+                "Jornada", Html.GetEnumSelectList<TiposJornada>(),
+                "Seleccionar",
+                new {@class = "form-control"}    
+            )
         </div>
     </div>
     <input type="submit" />

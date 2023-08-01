@@ -5,6 +5,13 @@
     Layout = "_Simple";
 }
 
+@if (@ViewBag.Notificacion != null)
+{
+    <div class="alert alert-success" role="alert">
+        @ViewBag.Notificacion
+    </div>
+}
+
 <h2>Codigo: @Model.Id</h2>
 <h2>Nombre: @Model.Nombre</h2>
 
